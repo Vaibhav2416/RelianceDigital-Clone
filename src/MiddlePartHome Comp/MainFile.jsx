@@ -1,4 +1,7 @@
 
+=======
+
+
 import Banner from "./Banner"
 import Devices from "./Devices"
 import FinalBottom from "./FinalBottom"
@@ -10,14 +13,20 @@ import SmallComp from "./SmallComp"
 import SubPart_1 from "./SubPart_1"
 import IndividualIntervalsExample from "./Subpart_2"
 import Washing from "./Washing"
+
+=======
 =======
 import "./middlestyles.css"
 import SubPart_1 from "./SubPart_1"
+
 
 function Main(){
     return (
         <div>
             <SubPart_1 />
+
+=======
+
 
             <IndividualIntervalsExample />
             <Laptop />
@@ -31,7 +40,10 @@ function Main(){
 
 
             
+
 =======
+=======
+
 
         </div>
     )

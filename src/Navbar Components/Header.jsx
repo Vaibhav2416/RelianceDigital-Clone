@@ -1,8 +1,12 @@
 
+import { Box, Icon,  Spacer } from "@chakra-ui/react"
+import React from "react"
+=======
+
 import { Box, Icon, Spacer } from "@chakra-ui/react"
 =======
 import { Icon, Spacer } from "@chakra-ui/react"
->>>>>>> main
+
 import MenuItem from "./BlueHover"
 import Menu from "./BlueHover"
 import CollapseEx from "./BlueHover"
@@ -13,12 +17,27 @@ import "./header.css"
 import Location from "./LocationIcon"
 import Login from "./Login"
 import SearchBar from "./Searchbar"
+
+import { Navigate, Link } from "react-router-dom"
+function Header(){
+
+    // const navigate= useNavigate()
+    // function handleLogin(){
+    //     console.log("hey")
+    //  return <Navigate to="/login" />
+    // }
+
+
+    return (
+        <div id="fix" >
+=======
 function Header(){
     return (
 
         <div id="fix" >
 =======
         <div>
+
 
         <div className="header">
 
@@ -56,9 +75,18 @@ function Header(){
                     <CartIcon />
                     Cart
                 </div>
+
+                <div >
+                    <Link to="/login">
+                           <Login  />
+                          Login
+                   </Link>
+                 
+=======
                 <div > 
                     <Login  />
                    Login
+
                 </div>
             </div>
 
