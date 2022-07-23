@@ -1,13 +1,12 @@
-
 import Carousel from 'react-bootstrap/Carousel';
 
-function IndividualIntervalsExample() {
+function Banner() {
   return (
     <Carousel>
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src="https://www.reliancedigital.in/medias/Washotsav-Carousel-Banners-D.jpg?context=bWFzdGVyfGltYWdlc3wxMTc0MTJ8aW1hZ2UvanBlZ3xpbWFnZXMvaGU0L2g4NS85ODYwNzM1NDY3NTUwLmpwZ3wyYmYyZDU2MWU0OGRkNGYzYTVlNDM3ZDRjMDUxMmZmY2RkYTFlOTVkYTc4NDVhOGY0MjE2NGViYmVkMzk3YTAy"
+          src="https://www.reliancedigital.in/medias/OnePlus-Nord-2T-5G-NPI-Banner-13-07-2022.jpg?context=bWFzdGVyfGltYWdlc3w4NjI4MHxpbWFnZS9qcGVnfGltYWdlcy9oMjgvaGY3Lzk4NjAwNjcwNjU4ODYuanBnfGEzZDhiNmRmYjBiYzg1YzFjOGI5MmFkMGJlZjYzMTAyY2FkNzNkMzIwNTdkYWM2ZTA0YzlkNzFjOTZiN2E1NDA"
           alt="First slide"
         />
         {/* <Carousel.Caption>
@@ -18,7 +17,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src="https://www.reliancedigital.in/medias/RD-TV-DIGI-BIG-SCREEN-CLP-BANNER-HDFC-OFFER-D.jpg?context=bWFzdGVyfGltYWdlc3w5NjI4MHxpbWFnZS9qcGVnfGltYWdlcy9oZDIvaDBiLzk4NjA3MzU1OTg2MjIuanBnfDIzMjNkNmI3N2UxOTgwOWU5ZTM3MjBjNDE4NzhjYzhlOWFlMjAzNGNkNzQ0MWMyYTI1NWM1NTQxNmI0Y2ZiMDA"
+          src="https://www.reliancedigital.in/medias/Oppo-Reno-8PRO-NPI-D-18.04.jpg?context=bWFzdGVyfGltYWdlc3wxMjI0MjJ8aW1hZ2UvanBlZ3xpbWFnZXMvaDM2L2g3My85ODYyNDM3NTY4NTQyLmpwZ3xkZmM1MDIxODRlYTc4MjRjMzhiODBhNmY5ZjdlYmVlMjdhOWNkMjYxMmU4Y2U2Yjk2YjA4OWNhMWRmYjMxYTFi"
           alt="Second slide"
         />
         {/* <Carousel.Caption>
@@ -29,7 +28,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.reliancedigital.in/medias/Samsung-Galaxy-M52-Desktop-20.06.jpg?context=bWFzdGVyfGltYWdlc3wxMDgyNjF8aW1hZ2UvanBlZ3xpbWFnZXMvaDRmL2gwYy85ODYxOTc2NDkwMDE0LmpwZ3w5N2EzMDE4MWQ4ZTI5MmE1NDRkNjRlODJkYWNhNjJkYzQ5YzBiMDdjMThhYjhkOWU2MTAyM2YzZGQxNWIyYzk0"
+          src="https://www.reliancedigital.in/medias/Samsung-Smart-HD-TV-NPI-D-11.07.jpg?context=bWFzdGVyfGltYWdlc3wxMzk4NDN8aW1hZ2UvanBlZ3xpbWFnZXMvaGM0L2gwOC85ODYyNDU3NjU1MzI2LmpwZ3wxZjgxYTE3OTBjMjE4Zjg1YzEwZGU1ZjkzYzFkYjc2Yjg4YjQzNjkxNjQyNzQyMTkxNmIwMTA2MDcxNDk2YWNh"
           alt="Third slide"
         />
         {/* <Carousel.Caption>
@@ -43,7 +42,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.reliancedigital.in/medias/Lenovo-Laptops-Desktop-15.07.jpg?context=bWFzdGVyfGltYWdlc3wxMzExODR8aW1hZ2UvanBlZ3xpbWFnZXMvaDY5L2hiMC85ODYyMjA3MDQ1NjYyLmpwZ3w1MmIyMzI0MmY3NzJkYjI2YTI5NTdkZDMwYmUyMmQxZDIyMGY0MWI5OWM2ZTJhNzIxMDgyZjUxY2YyZTdmNzA5"
+          src="https://www.reliancedigital.in/medias/Fire-Boltt-Ninja-Dial-NPI-CLP-D.jpg?context=bWFzdGVyfGltYWdlc3wxMDAxOTh8aW1hZ2UvanBlZ3xpbWFnZXMvaDUzL2g1Mi85ODYwNjY3ODAxNjMwLmpwZ3wyY2UxNjU1ZDQ1N2NjOTc4MmNhZjE2NTk1YTAwNDIwMjFjYjA2MzNhOGUxY2Y1YmYyMWI1NmZjZmQ0ZjNjNGNk"
           alt="Third slide"
         />
         {/* <Carousel.Caption>
@@ -57,7 +56,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.reliancedigital.in/medias/Audio-Accessories-Carousel-Banner-08-07-2022.jpg?context=bWFzdGVyfGltYWdlc3w2NjIyMXxpbWFnZS9qcGVnfGltYWdlcy9oNDAvaGRkLzk4NjE0OTk4MTM5MTguanBnfDFjY2I2NTI0NGJhYWM3Yjk0MDgxNWJjZjg1NGVlZjJjYzQ3N2E5M2ZmY2Y4MjdjMGEwNjgyZDU1YjgzYzkwNjI"
+          src="https://www.reliancedigital.in/medias/Sony-Bluetooth-WI-C100-D-NPI-1-.jpg?context=bWFzdGVyfGltYWdlc3wxMjE1NDF8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ0L2g4My85ODYyNDMwODUxMTAyLmpwZ3xlZmRjZTEzZWI3YWYwMTlhNWY2YmVhMjMyNDJhZWEzYmZlMDFjMzRjYjI3YTE0Y2NkYThkZmE1MjZlODYzMDI5"
           alt="Third slide"
         />
         {/* <Carousel.Caption>
@@ -72,16 +71,4 @@ function IndividualIntervalsExample() {
   );
 }
 
-export default IndividualIntervalsExample;
-
-import "./middlestyles.css"
-
-function SubPart_2(){
-    return (
-        <div> 
-             
-        </div>
-    )
-}
-export default SubPart_2
-
+export default Banner;

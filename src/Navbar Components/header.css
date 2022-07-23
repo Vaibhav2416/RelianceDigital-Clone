@@ -81,3 +81,11 @@ body{
     /* padding: 3px; */
 }
 
+#fix{
+    position: fixed;
+    z-index:1;
+    width: 100%;
+    
+}
+
+
