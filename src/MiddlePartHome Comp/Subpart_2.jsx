@@ -1,3 +1,4 @@
+
 import Carousel from 'react-bootstrap/Carousel';
 
 function IndividualIntervalsExample() {
@@ -72,3 +73,15 @@ function IndividualIntervalsExample() {
 }
 
 export default IndividualIntervalsExample;
+
+import "./middlestyles.css"
+
+function SubPart_2(){
+    return (
+        <div> 
+             
+        </div>
+    )
+}
+export default SubPart_2
+

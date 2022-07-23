@@ -1,4 +1,8 @@
+
 import { Box, Icon, Spacer } from "@chakra-ui/react"
+=======
+import { Icon, Spacer } from "@chakra-ui/react"
+>>>>>>> main
 import MenuItem from "./BlueHover"
 import Menu from "./BlueHover"
 import CollapseEx from "./BlueHover"
@@ -11,7 +15,11 @@ import Login from "./Login"
 import SearchBar from "./Searchbar"
 function Header(){
     return (
+
         <div id="fix" >
+=======
+        <div>
+
         <div className="header">
 
             {/* small head */}
