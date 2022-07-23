@@ -1,5 +1,12 @@
+
 import { Box, Icon,  Spacer } from "@chakra-ui/react"
 import React from "react"
+=======
+
+import { Box, Icon, Spacer } from "@chakra-ui/react"
+=======
+import { Icon, Spacer } from "@chakra-ui/react"
+
 import MenuItem from "./BlueHover"
 import Menu from "./BlueHover"
 import CollapseEx from "./BlueHover"
@@ -10,6 +17,7 @@ import "./header.css"
 import Location from "./LocationIcon"
 import Login from "./Login"
 import SearchBar from "./Searchbar"
+
 import { Navigate, Link } from "react-router-dom"
 function Header(){
 
@@ -22,6 +30,15 @@ function Header(){
 
     return (
         <div id="fix" >
+=======
+function Header(){
+    return (
+
+        <div id="fix" >
+=======
+        <div>
+
+
         <div className="header">
 
             {/* small head */}
@@ -58,12 +75,18 @@ function Header(){
                     <CartIcon />
                     Cart
                 </div>
+
                 <div >
                     <Link to="/login">
                            <Login  />
                           Login
                    </Link>
                  
+=======
+                <div > 
+                    <Login  />
+                   Login
+
                 </div>
             </div>
 
