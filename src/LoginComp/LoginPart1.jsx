@@ -1,4 +1,4 @@
-import { Input } from '@chakra-ui/react';
+import { FormControl, Input } from '@chakra-ui/react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Footer from '../Components/Footer';
@@ -10,21 +10,13 @@ import "./log.css"
 import { useState } from 'react';
 
 function LoginPart1() {
-    const [pass, setPass]=useState("")
-    
-let p1
-useEffect(()=>{
-    let array=[]
-    p1=Math.floor((Math.random() * 1000000) + 1000);
-    array.push(p1)
-    localStorage.setItem("logdata",JSON.stringify(array))
-    console.log(array)  
-    setPass(p1)
-    // console.log(number)
+    // const [pass, setPass]=useState("")
 
-},[])
-    
+    const [number, setNumber] =useState("")
+   const checkPwd=useState("empty")
+      
 
+ 
 
 // function getvalue(){
       
@@ -44,11 +36,18 @@ useEffect(()=>{
 
             <div className='inputBox'>
                 <p>Enter Mobile Number</p>
-                <Input id="mob" border="1px solid black" outline="black solid 1px"  mt="8px" 
+                <Input onChange={(e)=>{setNumber(e.target.value)}}
+                 id="mob" border="1px solid black" outline="black solid 1px" 
                   />
-                    
+                
+
+                {/* {let y=number.length}                */}
               
-                <TransitionExample  otp={pass}/>
+                <TransitionExample
+                  num={number}
+                />
+                
+                
 
 
             </div>

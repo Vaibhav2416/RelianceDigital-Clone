@@ -1,12 +1,5 @@
-
 import { Box, Icon,  Spacer } from "@chakra-ui/react"
 import React from "react"
-=======
-
-import { Box, Icon, Spacer } from "@chakra-ui/react"
-=======
-import { Icon, Spacer } from "@chakra-ui/react"
-
 import MenuItem from "./BlueHover"
 import Menu from "./BlueHover"
 import CollapseEx from "./BlueHover"
@@ -17,28 +10,34 @@ import "./header.css"
 import Location from "./LocationIcon"
 import Login from "./Login"
 import SearchBar from "./Searchbar"
-
 import { Navigate, Link } from "react-router-dom"
+import { useState } from "react"
+import { useEffect } from "react"
 function Header(){
 
+    const [text, setText]=useState("")
     // const navigate= useNavigate()
     // function handleLogin(){
     //     console.log("hey")
     //  return <Navigate to="/login" />
     // }
+let namedata=JSON.parse(localStorage.getItem("profilename")) || []
+console.log(namedata[0])
 
+    //  setText(namedata[0])
+
+useEffect(()=>{
+    setText(namedata[0]) 
+},[text])
+
+function gohome(){
+    return (
+        window.location.href="/"
+    )
+}
 
     return (
         <div id="fix" >
-=======
-function Header(){
-    return (
-
-        <div id="fix" >
-=======
-        <div>
-
-
         <div className="header">
 
             {/* small head */}
@@ -59,7 +58,7 @@ function Header(){
 
             <div className="below_header">
 
-                <div className="image-Reliance">
+                <div className="image-Reliance" onClick={gohome}>
                     <img src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" alt="" />
                 </div>
                 
@@ -75,18 +74,12 @@ function Header(){
                     <CartIcon />
                     Cart
                 </div>
-
-                <div >
+                <div id="profile">
                     <Link to="/login">
                            <Login  />
-                          Login
+                     {  text || "Login" }
                    </Link>
                  
-=======
-                <div > 
-                    <Login  />
-                   Login
-
                 </div>
             </div>
 

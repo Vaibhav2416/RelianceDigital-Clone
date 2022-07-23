@@ -10,11 +10,7 @@ export default function SearchBar(){
             <Input
                     isInvalid
                     errorBorderColor='red.300'
-
                     placeholder='Find your favourite products'
-=======
-                    placeholder='Here is a sample placeholder'
-
                     borderRadius="30px"
                     bgColor="white"
                     width="600px"

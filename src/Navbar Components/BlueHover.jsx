@@ -12,10 +12,10 @@ export default function MenuCards({
                 {Title}
             </MenuButton>
             <MenuList backgroundColor="#1f4985" color="white" mt="-6px" >
-                <MenuItem _hover={{bg:"none"}}>{Item_1}</MenuItem>
-                <MenuItem _hover={{bg:"none"}}>{Item_2}</MenuItem>
-                <MenuItem _hover={{bg:"none"}}>{Item_3}</MenuItem>
-                <MenuItem _hover={{bg:"none"}}>{Item_4}</MenuItem>
+                <MenuItem _hover={{bg:"lightgrey",color:"brown",fontSize:"14px",fontWeight:"bold"}}>{Item_1}</MenuItem>
+                <MenuItem _hover={{bg:"lightgrey",color:"brown",fontSize:"14px",fontWeight:"bold"}}>{Item_2}</MenuItem>
+                <MenuItem _hover={{bg:"lightgrey",color:"brown",fontSize:"14px",fontWeight:"bold"}}>{Item_3}</MenuItem>
+                <MenuItem _hover={{bg:"lightgrey",color:"brown",fontSize:"14px",fontWeight:"bold"}}>{Item_4}</MenuItem>
                 {/* <MenuItem>{Item_5}</MenuItem> */}
             </MenuList>
             </Menu>

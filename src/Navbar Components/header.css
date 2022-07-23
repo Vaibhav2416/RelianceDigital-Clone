@@ -62,9 +62,7 @@ align-items: center;
 .login_head div{
     border-right: 2px solid white;
     padding-right: 10px;
-
     cursor: pointer;
-=======
 }
 .login_head div:nth-child(3){
     border: none;
@@ -75,11 +73,7 @@ body{
 }
 .navbuttons{
     display: flex;
-
     /* border: 2px solid red; */
-=======
-    border: 2px solid red;
-
     height: 40px;
     box-sizing: border-box;
     background-color: #1f4985;
@@ -87,17 +81,10 @@ body{
     
     /* padding: 3px; */
 }
-=======
-
-
 #fix{
     position: fixed;
     z-index:1;
     width: 100%;
     
 }
-
-
-=======
-
 
