@@ -12,7 +12,7 @@
 <p align="center"> 
     <br />&#10023;
      &#10023;     
-    <a href="#Contributors">Contributors</a> &#10023;
+    <a href="#Contributor">Contributors</a> &#10023;
   </p>
   
 Reliance Digital is an Indian consumer electronics retailer. They sell their product both on shops as well as on website. This was a individual project built by me in 5 days.
